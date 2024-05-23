@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    <link rel="stylesheet" href="C:\Users\sajad\Documents\project\java script\project 2\project2.css">
+    <script src="C:\Users\sajad\Documents\project\java script\project 2\project2.js"></script>
+</head>
+<body>
+    <div id="inputpage">
+      <input type="password" placeholder="enter your password" maxlength="10" id="inputid" onkeyup="getuser()" onclick="modal()">      
+      <div onclick="toggleeye()" id="container-eye">
+        <img src="https://icongr.am/entypo/eye-with-line.svg?size=16&color=currentColor" alt="" id="hide">
+        <img src="https://icongr.am/entypo/eye.svg?size=16&color=currentColor" alt="" id="show"> 
+      </div>
+    </div>
+    <div id="alarm">
+      <span id="counter">10 character remain</span>
+
+    </div>
+        <div id="boxid">
+            <img src="https://icongr.am/octicons/x.svg?size=30&color=currentColor" alt="delete" id="exit" onclick="exit()">
+           <p>
+            you can not use number in your password
+           </p> 
+            
+        </div>
+</body>
+</html>
